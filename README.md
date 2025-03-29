@@ -1,8 +1,8 @@
-# Daşoguztelekom Işgärler Sistemi
+# Turkmentelekom Işgärler Sistemi
 
 Bu proýekt Daşoguztelekom kärhanasynyň işgärleriniň sanawyny dolandyrmak üçin ýaratylan web ulgamy.
 
-## Özellikler
+## Aýratynlyklar
 
 - Işgärleriň sanawyny görüntülemek
 - Täze işgär hasaba almak
@@ -11,17 +11,16 @@ Bu proýekt Daşoguztelekom kärhanasynyň işgärleriniň sanawyny dolandyrmak 
 - Işgärleri bölüm we wezîpe boýunça süzgüçlemek
 - Işgärleri ady boýunça gözlemek
 
-## Teknik Gereksinimler
+## Teknik enjamlar
 
 - Node.js (v14 ýa-da ýokary)
-- PostgreSQL (v12 ýa-da ýokary)
 
 ## Gurnamak
 
 1. Proýekti klonlaň:
 ```bash
-git clone https://github.com/yourusername/dashoguztelekom.git
-cd dashoguztelekom
+git clone https://github.com/mekanio20/turkmentelekom.git
+cd turkmentelekom
 ```
 
 2. Backend bağlylyklaryny gurnaň:
@@ -34,26 +33,10 @@ npm install
 ```bash
 cd frontend
 npm install
-```
 
-4. PostgreSQL bazasyny gurnaň we `.env` faylini düzenleň:
-```env
-DB_HOST=localhost
-DB_PORT=5432
-DB_NAME=dashoguztelekom
-DB_USER=your_username
-DB_PASSWORD=your_password
-```
-
-5. Backend serwerini işe tüşüriň:
+4. Backend serwerini işe tüşüriň:
 ```bash
 cd backend
-npm run dev
-```
-
-6. Frontend serwerini işe tüşüriň:
-```bash
-cd frontend
 npm run dev
 ```
 
@@ -76,8 +59,3 @@ npm run dev
   - Node.js
   - Express.js
   - Sequelize ORM
-  - PostgreSQL
-
-## Lisensiýa
-
-Bu proýekt MIT lisenziýasy astynda ýaybaşlanýar. Giňişleýin maglumat üçin `LICENSE` faylyna serediň. 
