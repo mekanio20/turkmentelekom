@@ -1,4 +1,4 @@
-# Turkmentelekom Işgärler Sistasy
+# Turkmentelekom Işgärler Sistemasy
 
 Bu proýekt Daşoguztelekom kärhanasynyň işgärleriniň sanawyny dolandyrmak üçin ýasalan web saýty.
 
